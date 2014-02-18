@@ -4,3 +4,11 @@ html {
 	color:white;
 	text-transform:uppercase;
 }
+
+body{
+	margin-top:200px;
+	font-size: 200px;
+	font-family: 'museo-sans-rounded';
+	font-weight: 1000;
+	font-size:130px;
+}
