@@ -3,12 +3,13 @@ html {
 	text-align:center;
 	color:white;
 	text-transform:uppercase;
+	font-family: 'museo-sans-rounded';
+
 }
 
 h1{
 	margin-top:200px;
 	font-size: 200px;
-	font-family: 'museo-sans-rounded';
 	font-weight: 1000;
 	font-size:130px;
 }
