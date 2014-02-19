@@ -65,6 +65,15 @@ ul li .text {
   color:rgba(255,255,255,0.7);
 }
 
+.addition {
+	margin-top: 25px;
+	color: black;
+}
+
+.addition:hover {
+	color: #ff5028
+}
+
 .fancybox-thumb img {
 	max-height: 200px;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
@@ -87,17 +96,18 @@ ul li .text {
 
 
 .photo1 {
-  background-image:url('/images/varanasi.png');
+  background-image:url('/images/bolivia.png');
   background-size: cover;
 }
 
 .photo2 {
-  background-image:url('/images/granola.png');
+  background-image:url('/images/spoon-snapshot.png');
   background-size: cover;
+  height:1000px;
 }
 
 .photo3 {
-  background-image:url('/images/bodhgaya.png');
+  background-image:url('/images/india.png');
   background-size: cover;
 }
 
@@ -110,6 +120,12 @@ ul li .text {
 	width:100%;
 	text-align:center;
 
+}
+
+.sidenote {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 
 #gallery h4 {
@@ -129,6 +145,10 @@ ul li .text {
 
 #spoon-logo:hover {
 	background-image: url('/images/spoon.png') !important;
+}
+
+.graphics {
+	margin-top:75px;
 }
 
 
