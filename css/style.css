@@ -19,10 +19,30 @@ body{
 	padding-bottom: 150px;
 }
 
+.quicklinks a {
+	margin: 0 15px;
+	color: #000000;
+}
+
+.quicklinks a:hover{
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #ff5028;
+}
+
+
+
+#call {
+	background-color:rgba(255, 80, 40, 1);
+	position:absolute;
+	color:white;
+	padding: 5px;
+}
+
 #mockups {
 	max-width: 900px;
 	width: 80%;
-	margin-top: 25px;
+	margin-top: 45px;
 	border-bottom: 1px solid #999;
 	margin-bottom: 25px;
 }
@@ -48,12 +68,12 @@ body{
 }
 
 .fa:hover {
-	color: #ff5028;
+	color: rgba(255, 80, 40,1);
 }
 
 #connect {
 	position:absolute;
-	top:25px;
+	top:35px;
 	width: 100%;
 }
 
@@ -141,11 +161,12 @@ ul li .text {
 	position:absolute;
 	bottom:0px;
 	padding:5px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(255, 80, 40, 1);
 	font-family: 'museo-sans-rounded';
 	width:100%;
 	text-align:center;
-
+	color: white;
+	font-weight:900;
 }
 
 .sidenote {
@@ -158,6 +179,18 @@ ul li .text {
 	margin-bottom:10px;
 	bottom:20px;
 	position:relative;
+}
+
+h4 {
+	line-height:23px;
+}
+
+.describe {
+	margin-top:40px;
+}
+
+.chunk {
+	margin: 70px 0;
 }
 
 #spoon-logo {
