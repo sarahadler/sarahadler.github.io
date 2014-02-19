@@ -8,9 +8,12 @@ html {
 
 .container {
 		font-family: 'museo-sans-rounded';
-		padding-bottom: 150px;
 }
 
+.last {
+		padding-bottom: 150px;
+
+}
 
 .bio {
 	margin-top: 50px;
@@ -72,7 +75,7 @@ ul li .text {
 
 .section-title {
 	background-color:#ffffff;
-	padding:20px;
+	padding:5px 20px 20px 20px;
 	position:absolute;
 }
 
@@ -82,10 +85,19 @@ ul li .text {
 }
 
 
-.photo2 {
-  background-image:url('/images/header.png');
+.photo1 {
+  background-image:url('/images/varanasi.png');
   background-size: cover;
-  background-position: -35 -175px;
+}
+
+.photo2 {
+  background-image:url('/images/granola.png');
+  background-size: cover;
+}
+
+.photo3 {
+  background-image:url('/images/bodhgaya.png');
+  background-size: cover;
 }
 
 .footer {
@@ -98,3 +110,20 @@ ul li .text {
 	text-align:center;
 
 }
+
+#spoon-logo {
+	background-image: url('/images/spoon-trans.png');
+	width: 150px;
+	height:150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 50px auto;
+}
+
+#spoon-logo:hover {
+	background-image: url('/images/spoon.png') !important;
+}
+
+
+
+
