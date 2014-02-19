@@ -1,5 +1,4 @@
 html {
-	background-color:#cccccc;
 	text-align:center;
 	color:black;
 	position:absolute;
@@ -77,6 +76,8 @@ ul li .text {
 	background-color:#ffffff;
 	padding:5px 20px 20px 20px;
 	position:absolute;
+	font-weight:900;
+
 }
 
 #gallery {
@@ -109,6 +110,12 @@ ul li .text {
 	width:100%;
 	text-align:center;
 
+}
+
+#gallery h4 {
+	margin-bottom:10px;
+	bottom:20px;
+	position:relative;
 }
 
 #spoon-logo {
