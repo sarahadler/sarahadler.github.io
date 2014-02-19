@@ -37,6 +37,7 @@ body{
 	position:absolute;
 	color:white;
 	padding: 5px;
+	
 }
 
 #mockups {
@@ -45,6 +46,10 @@ body{
 	margin-top: 45px;
 	border-bottom: 1px solid #999;
 	margin-bottom: 25px;
+}
+
+.title {
+	font-weight:900;
 }
 
 .bio {
