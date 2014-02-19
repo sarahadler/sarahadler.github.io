@@ -5,6 +5,11 @@ html {
 	width: 100%;
 }
 
+body{
+	font-family: 'museo-sans-rounded';
+
+}
+
 .container {
 		font-family: 'museo-sans-rounded';
 }
@@ -30,12 +35,25 @@ html {
 }
 
 .parallax .fa {
-	color: rgba(255,255,255,0.7);
-	margin: 15px;
+	color: rgba(0,0,0,0.7);
+	margin: 0 10px;
 }
 
 .parallax .fa:hover {
-	color: #ffffff;
+	color: #000000;
+}
+
+#connect {
+	position:absolute;
+	top:-85px;
+	width: 100%;
+}
+
+.top {
+	height: 850px;
+}
+.top li {
+	height: 850px;
 }
 
 ul li {
@@ -53,7 +71,7 @@ ul {
 h1 {
 	font-family: 'museo-sans-rounded';
   font-weight: 900;
-  font-size: 90px;
+  font-size: 37px;
   text-transform:uppercase;
 }
 
@@ -96,14 +114,14 @@ ul li .text {
 
 
 .photo1 {
-  background-image:url('/images/bolivia.png');
+  background-image:url('/images/mockups.png');
   background-size: cover;
+  height:850px;
 }
 
 .photo2 {
-  background-image:url('/images/spoon-snapshot.png');
+  background-image:url('/images/granola.png');
   background-size: cover;
-  height:1000px;
 }
 
 .photo3 {
