@@ -7,16 +7,24 @@ html {
 
 body{
 	font-family: 'museo-sans-rounded';
+	border-top: 3px solid #ff5028;
 
 }
 
 .container {
-		font-family: 'museo-sans-rounded';
+	font-family: 'museo-sans-rounded';
 }
 
 .last {
-		padding-bottom: 150px;
+	padding-bottom: 150px;
+}
 
+#mockups {
+	max-width: 900px;
+	width: 80%;
+	margin-top: 25px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 25px;
 }
 
 .bio {
@@ -34,18 +42,18 @@ body{
   height: 600px;
 }
 
-.parallax .fa {
+ .fa {
 	color: rgba(0,0,0,0.7);
 	margin: 0 10px;
 }
 
-.parallax .fa:hover {
-	color: #000000;
+.fa:hover {
+	color: #ff5028;
 }
 
 #connect {
 	position:absolute;
-	top:-85px;
+	top:25px;
 	width: 100%;
 }
 
@@ -89,7 +97,7 @@ ul li .text {
 }
 
 .addition:hover {
-	color: #ff5028
+	color: #ff5028;
 }
 
 .fancybox-thumb img {
