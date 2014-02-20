@@ -1,11 +1,27 @@
 var menu = $('.quicklinks');
 
+
+
+
+
+
+window.onscroll = function() {
+	var spoon = $('#spoon')
+    if (window.pageYOffset > 250) {
+			spoon.addClass('insert-left')
+    } 
+    else {
+      spoon.removeClass('insert-left')
+    }
+};
+
+
 window.onscroll = function () {
     if (window.pageYOffset > 598) {
       menu.addClass('docked');
     } 
     else if (window.pageYOffset < 598 ) {
-      menu.className = menu.removeClass('docked');
+      menu.removeClass('docked');
     }
 };
 

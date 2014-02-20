@@ -11,6 +11,23 @@ body{
 
 }
 
+#spoon {
+	  position: relative;
+    overflow: hidden;
+}
+
+#slide-left {
+    position: relative;
+    left: -400px;
+    transition: 1s;
+}
+
+.inserted-left #slide-left {
+	transition: 1s;
+  left: 0;
+}
+
+
 .docked {
 	position:fixed;
 	top: 0px;
@@ -20,6 +37,16 @@ body{
 	padding:7px;
 	z-index: 1000;
 
+}
+
+.link {
+	color:black;
+}
+
+.link:hover {
+	color:black;
+	text-decoration:underline;
+	border-bottom: 1px solid #ff5028;
 }
 
 .container {
@@ -64,6 +91,15 @@ body{
 
 .title {
 	font-weight:900;
+	text-align:left;
+}
+
+#dadler {
+	max-width: 100%;
+}
+
+p {
+	text-align:left;
 }
 
 .bio {
@@ -209,7 +245,8 @@ h4 {
 }
 
 .chunk {
-	margin: 100px 0;
+	margin:75px 0;
+	padding: 75px 0px;
 }
 
 #spoon-logo {
