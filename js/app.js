@@ -1,3 +1,15 @@
+var menu = $('.quicklinks');
+
+window.onscroll = function () {
+    if (window.pageYOffset > 598) {
+      menu.addClass('docked');
+    } 
+    else if (window.pageYOffset < 598 ) {
+      menu.className = menu.removeClass('docked');
+    }
+};
+
+
 function scrollToInformation(event) {
     event.preventDefault();
     var diff = $(document).height() - $(window).height();

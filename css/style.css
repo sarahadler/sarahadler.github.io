@@ -11,6 +11,17 @@ body{
 
 }
 
+.docked {
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	padding:7px;
+	z-index: 1000;
+
+}
+
 .container {
 	font-family: 'museo-sans-rounded';
 }
@@ -21,6 +32,9 @@ body{
 
 .quicklinks a {
 	margin: 0 15px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 	color: #000000;
 }
 
