@@ -31,9 +31,9 @@ body{
 .docked {
 	position:fixed;
 	top: 0px;
-	left: 0px;
+	left: 15px;
 	width: 100%;
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.97);
 	padding:7px;
 	z-index: 1000;
 
@@ -228,6 +228,7 @@ ul li .text {
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 12px;
+	text-align:center;
 }
 
 #gallery h4 {
