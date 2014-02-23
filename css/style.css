@@ -6,7 +6,7 @@ html {
 }
 
 body{
-	font-family: 'museo-sans-rounded';
+	font-family: 'museo-sans-rounded', sans-serif;
 	border-top: 3px solid #ff5028;
 
 }
@@ -16,16 +16,6 @@ body{
     overflow: hidden;
 }
 
-#slide-left {
-    position: relative;
-    left: -400px;
-    transition: 1s;
-}
-
-.inserted-left #slide-left {
-	transition: 1s;
-  left: 0;
-}
 
 
 .docked {

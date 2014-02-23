@@ -1,17 +1,6 @@
-window.onscroll = function() {
-	var spoon = $('#spoon')
-    if (window.pageYOffset > 250) {
-			spoon.addClass('insert-left')
-    } 
-    else {
-      spoon.removeClass('insert-left')
-    }
-};
-
-var menu = $('.quicklinks');
-var menu_pos = menu.position().top - 15;
-
 window.onscroll = function () {
+	var menu = $('.quicklinks');
+	var menu_pos = menu.position().top - 15;
 	
     if (window.pageYOffset > menu_pos) {
       menu.addClass('docked');
