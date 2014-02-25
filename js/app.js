@@ -1,12 +1,13 @@
+var menu = $('.quicklinks');
+var menu_init = menu.position().top - 15;
+
 window.onscroll = function () {
-	var menu = $('.quicklinks');
 	var menu_pos = menu.position().top - 15;
 	
     if (window.pageYOffset > menu_pos) {
       menu.addClass('docked');
-    } 
-    else if (window.pageYOffset < menu_pos ) {
-      menu.removeClass('docked');
+    } else if ( window.pageYOffset < menu_init ) {
+      menu.removeClass('docked'); // why doesn't this work?!
     }
 };
 
