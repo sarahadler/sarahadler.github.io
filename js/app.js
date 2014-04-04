@@ -1,15 +1,29 @@
-var menu = $('.quicklinks');
-var menu_init = menu.position().top - 15;
 
-window.onscroll = function () {
-	var menu_pos = menu.position().top - 15;
-	
-    if (window.pageYOffset > menu_pos) {
+var menu = $('.quicklinks');
+var menu_init = menu.position().top;
+document.onscroll = function () {
+		if ( parseInt( window.pageYOffset ) <= ( menu_init ) ) {
+      menu.removeClass('docked');
+    };
+    if ( parseInt( window.pageYOffset ) >= ( menu_init )) {
       menu.addClass('docked');
-    } else if ( window.pageYOffset < menu_init ) {
-      menu.removeClass('docked'); // why doesn't this work?!
-    }
-};
+    };
+  };
+
+
+// var menu = $('.quicklinks');
+// var menu_init = menu.position().top - 15;
+
+// document.onscroll = function () {
+// 	var menu_pos = menu.position().top - 15;
+	
+//     if (window.pageYOffset > menu_pos) {
+//       menu.addClass('docked');
+//     };
+//     if ( window.pageYOffset < menu_init ) {
+//       menu.removeClass('docked'); // why doesn't this work?!
+//     };
+// };
 
 
 function scrollToInformation(event) {
@@ -38,3 +52,5 @@ $(document).ready(function() {
     $('.quicklinks a').on('click', scrollToInformation);
     
 });
+
+
