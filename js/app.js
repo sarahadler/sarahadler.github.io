@@ -1,37 +1,29 @@
 
 var menu = $('.quicklinks');
-var menu_init = menu.position().top;
+menu_init = menu.position().top;
+
+var stickynav = function(menu_init){
+		console.log(menu_init);
+	if ( parseInt( window.pageYOffset ) <= ( menu_init ) ) {
+		menu.removeClass('docked');
+	};
+	if ( parseInt( window.pageYOffset ) >= ( menu_init )) {
+		menu.addClass('docked');
+	};
+};
+
 document.onscroll = function () {
-		if ( parseInt( window.pageYOffset ) <= ( menu_init ) ) {
-      menu.removeClass('docked');
-    };
-    if ( parseInt( window.pageYOffset ) >= ( menu_init )) {
-      menu.addClass('docked');
-    };
-  };
+	stickynav(menu_init);
+};
 
-
-// var menu = $('.quicklinks');
-// var menu_init = menu.position().top - 15;
-
-// document.onscroll = function () {
-// 	var menu_pos = menu.position().top - 15;
-	
-//     if (window.pageYOffset > menu_pos) {
-//       menu.addClass('docked');
-//     };
-//     if ( window.pageYOffset < menu_init ) {
-//       menu.removeClass('docked'); // why doesn't this work?!
-//     };
-// };
 
 
 function scrollToInformation(event) {
-    event.preventDefault();
-    var diff = $(document).height() - $(window).height();
-    var dest = ($(this.hash).offset().top > diff) ? diff : $(this.hash).offset().top;
-    if (dest <= 480) { dest = 0; }
-        $('html, body').animate({scrollTop: dest}, 500, 'swing');
+	event.preventDefault();
+	var diff = $(document).height() - $(window).height();
+	var dest = ($(this.hash).offset().top > diff) ? diff : $(this.hash).offset().top;
+	if (dest <= 480) { dest = 0; }
+	$('html, body').animate({scrollTop: dest}, 500, 'swing');
 }
 
 $(document).ready(function() {
@@ -49,8 +41,21 @@ $(document).ready(function() {
 		}
 	});
 
-    $('.quicklinks a').on('click', scrollToInformation);
-    
+	$('.quicklinks a').on('click', scrollToInformation);
+	
+
+	stickynav(menu_init);
+	console.log(menu_init);
+
+
+	$(window).resize(function() {
+		if ( menu.position().top != 0 ) {
+			menu_init = menu.position().top;
+		}
+		stickynav(menu_init);
+		console.log(menu_init);
+	});
+
 });
 
 
