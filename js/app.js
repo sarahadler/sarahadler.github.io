@@ -50,6 +50,11 @@ $(document).ready(function() {
 	stickynav(menu_init);
 	console.log(menu_init);
 
+	$('img').bind("load", function () {
+		console.log('fade in.')
+		//$(this).fadeIn();
+	});
+
 
 	$(window).resize(function() {
 		if ( menu.position().top != 0 ) {
