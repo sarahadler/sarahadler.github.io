@@ -41,8 +41,11 @@ $(document).ready(function() {
 		}
 	});
 
+	menu_init = menu.position().top;
+
+
 	$('.quicklinks a').on('click', scrollToInformation);
-	
+
 
 	stickynav(menu_init);
 	console.log(menu_init);
