@@ -41,7 +41,7 @@ $(document).ready(function() {
 		}
 	});
 
-	$("#mockups").bind("load", function () { $(this).fadeIn(); });
+	$('#mockups').hide();.fadeIn(3000);
 
 	menu_init = menu.position().top;
 
