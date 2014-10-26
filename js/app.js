@@ -51,8 +51,7 @@ $(document).ready(function() {
 	console.log(menu_init);
 
 	$('img').bind("load", function () {
-		console.log('fade in.')
-		//$(this).fadeIn();
+		$(this).fadeIn();
 	});
 
 
