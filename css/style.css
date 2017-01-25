@@ -6,7 +6,7 @@ html {
 }
 
 body{
-	font-family: 'museo-sans-rounded', sans-serif;
+	font-family: 'proxima-nova', sans-serif;
 	border-top: 3px solid #ff5028;
 
 }
@@ -40,7 +40,7 @@ body{
 }
 
 .container {
-	font-family: 'museo-sans-rounded';
+	font-family: 'proxima-nova';
 }
 
 .last {
@@ -68,7 +68,7 @@ body{
 	position:absolute;
 	color:white;
 	padding: 5px;
-	
+
 }
 
 #mockups {
@@ -142,7 +142,7 @@ ul {
 }
 
 h1 {
-	font-family: 'museo-sans-rounded';
+	font-family: 'proxima-nova';
   font-weight: 900;
   font-size: 37px;
   text-transform:uppercase;
@@ -207,7 +207,7 @@ ul li .text {
 	bottom:0px;
 	padding:5px;
 	background-color: rgba(255, 80, 40, 1);
-	font-family: 'museo-sans-rounded';
+	font-family: 'proxima-nova';
 	width:100%;
 	text-align:center;
 	color: white;
