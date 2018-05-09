@@ -1,113 +1,25 @@
-html {
-	text-align:center;
-	color:black;
-	position:absolute;
-	width: 100%;
-}
-
 body{
-	font-family: 'proxima-nova', sans-serif;
 	border-top: 3px solid #ff5028;
-
-}
-
-#spoon {
-	  position: relative;
-    overflow: hidden;
-}
-
-
-
-.docked {
-	position:fixed;
-	top: 0px;
-	left: 15px;
-	width: 100%;
-	background-color: rgba(255,255,255,0.97);
-	padding:7px;
-	z-index: 1000;
-
-}
-
-.link {
-	color:black;
-}
-
-.link:hover {
-	color:black;
-	text-decoration:underline;
-	border-bottom: 1px solid #ff5028;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .container {
-	font-family: 'proxima-nova';
+	max-width: 500px;
+	width: 90%;
+	margin: 40vh auto 0;
 }
-
-.last {
-	padding-bottom: 150px;
-}
-
-.quicklinks a {
-	margin: 0 15px;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	color: #000000;
-}
-
-.quicklinks a:hover{
-	color: #000000;
-	text-decoration: none;
-	border-bottom: 1px solid #ff5028;
-}
-
-
 
 #call {
 	background-color:rgba(255, 80, 40, 1);
 	position:absolute;
 	color:white;
+	top:-15px;
 	padding: 5px;
-
 }
 
-#mockups {
-	max-width: 900px;
-	width: 80%;
-	margin-top: 45px;
-	border-bottom: 1px solid #999;
-	margin-bottom: 25px;
-}
-
-.title {
-	font-weight:900;
-	text-align:left;
-}
-
-#dadler {
-	max-width: 100%;
-}
-
-p {
-	text-align:left;
-}
-
-.bio {
-	margin-top: 50px;
-	margin-bottom: 150px;
-	line-height: 1.4em;
-}
-
-.parallax {
-	height:550px;
-	overflow: hidden;
-}
-
-.parallax-background {
-  height: 600px;
-}
-
- .fa {
+.fa {
 	color: rgba(0,0,0,0.7);
 	margin: 0 10px;
 }
@@ -122,147 +34,19 @@ p {
 	width: 100%;
 }
 
-.top {
-	height: 850px;
-}
-.top li {
-	height: 850px;
-}
-
-ul li {
-  list-style: none;
-  overflow: hidden;
-  height: 500px;
-  position:relative;
-}
-
-ul {
-  margin:0;
-  padding:0;
-}
-
-h1 {
-	font-family: 'proxima-nova';
-  font-weight: 900;
-  font-size: 37px;
-  text-transform:uppercase;
-}
-
-ul li .text {
-  position: absolute;
-  top: 100px;
-  text-align:center;
-  width:100%;
-  color:rgba(255,255,255,0.7);
-}
-
-.addition {
-	margin-top: 25px;
-	color: black;
-}
-
-.addition:hover {
-	color: #ff5028;
-}
-
-.fancybox-thumb img {
-	max-height: 200px;
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-	margin-right:10px;
-	margin-bottom: 5px;
-}
-
-.section-title {
-	background-color:#ffffff;
-	padding:5px 20px 20px 20px;
-	position:absolute;
-	font-weight:900;
-
-}
-
-#gallery {
-	padding-top:100px;
-	border-top: 1px solid #999999;
-}
-
-
-.photo1 {
-  background-image:url('/images/mockups.png');
-  background-size: cover;
-  height:850px;
-}
-
-.photo2 {
-  background-image:url('/images/granola.png');
-  background-size: cover;
-}
-
-.photo3 {
-  background-image:url('/images/bolivia.png');
-  background-size: cover;
+#connect a {
+	text-decoration: none;
 }
 
 .footer {
-	position:absolute;
+	position:fixed;
 	bottom:0px;
 	padding:5px;
 	background-color: rgba(255, 80, 40, 1);
-	font-family: 'proxima-nova';
 	width:100%;
 	text-align:center;
 	color: white;
 	font-weight:900;
-}
-
-.row.graphics {
-	margin-bottom:100px;
-}
-
-.sidenote {
-	font-weight: 900;
-	text-transform: uppercase;
-	font-size: 12px;
-	text-align:center;
-}
-
-#gallery h4 {
-	margin-bottom:10px;
-	bottom:20px;
-	position:relative;
-}
-
-h4 {
-	line-height:23px;
-}
-
-.describe {
-	margin-top:40px;
-}
-
-.chunk {
-	margin:75px 0;
-	padding: 75px 0px;
-}
-
-.chunk img {
-	width:100%;
-}
-
-#spoon-logo {
-	background-image: url('/images/spoon-trans.png');
-	width: 150px;
-	height:150px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin: 50px auto;
-}
-
-#spoon-logo:hover {
-	background-image: url('/images/spoon.png') !important;
-}
-
-.graphics {
-	margin-top:75px;
 }
 
 
